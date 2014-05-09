@@ -1,7 +1,7 @@
-import java.awt.BorderLayout;
+iimport java.awt.BorderLayout;
 
 
-public class MainMenu extends JFrame {
+public class MainMenuUI extends JFrame {
 
 	private JPanel contentPane;
 
@@ -12,7 +12,7 @@ public class MainMenu extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					MainMenu frame = new MainMenu();
+					MainMenuUI frame = new MainMenuUI();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -24,7 +24,7 @@ public class MainMenu extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public MainMenu() {
+	public MainMenuUI() {
 		setTitle("Main Menu");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 574, 467);
